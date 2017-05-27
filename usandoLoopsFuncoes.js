@@ -1,3 +1,9 @@
+
+
+/*                      DETALHES ESSE ARQUIVO JAVASCRIPT NÃO ESTÁ SENDO CHAMADO PELO INDEX.HTML ELE É EXEMPLO PARA ESTUDO                    */
+
+
+
 var desenhaQuadradoverde = function (x, y) {
 
     var tela = document.getElementById("tela");

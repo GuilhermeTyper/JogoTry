@@ -1,3 +1,8 @@
+
+
+/*                      DETALHES ESSE ARQUIVO JAVASCRIPT NÃO ESTÁ SENDO CHAMADO PELO INDEX.HTML ELE É SÓ EXEMPLO PARA ESTUDO                        */
+
+
 var tela = document.getElementById("tela");
 var c = tela.getContext("2d");
 
@@ -19,5 +24,3 @@ c.beginPath();
 c.fillStyle = "blue";
 c.arc(300,200,50,0, 2 * pi);
 c.fill();
-
-
