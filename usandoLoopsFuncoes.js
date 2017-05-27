@@ -29,4 +29,3 @@ for (var index = 0; index < 600; index = index + 50) {
     desenhaQuadradoVermelho(index, 50)
 
 }
-
