@@ -4,7 +4,7 @@ var c = tela.getContext("2d");
 c.fillStyle = "gray";
 c.fillRect(0, 0, 600, 400);
 
-tela.onclick = function(evento) {
+var atira = function(evento) {
     var x = evento.pageX - tela.offsetLeft;
     var y = evento.pageY - tela.offsetTop;
 
@@ -15,3 +15,5 @@ tela.onclick = function(evento) {
 
     console.log("posição de click: " + x + "," + y);
 }
+
+tela.onclick = atira;
